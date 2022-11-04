@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="bg" src="img.jpg" alt="IIEST Shibpur">
+    <div class="container">
+
+        <h1> Welcome to IIEST Shibpur US trip</h1>
+        <p> Enter your details to enrolled your self to the trip</p>
+        <p>Thank you for submitting the form. We will happy to see you again</p>
+
+        <form action="index.php"method="POST"></form>
+        <input type="text" name="Name" id=" Name" placeholder="Enter your name">
+        <input type="text" name="Age" id="Age" placeholder="Enter your Age">
+        <input type="text" name=" Gender" id="Gender" placeholder="Enter your gender">
+        <input type="email" name="Email" id="Email" placeholder="Enter your Email">
+        <input type="Phone" name="Phone" id="Phone" placeholder="Enter your phone number">
+        <textarea name="description" id="description" cols="30" rows="10" 
+        placeholder="Any other Detail"></textarea>
+        
+        <button class="btn">Submit</button>
+        <button class="btn">Reset</button>
+        
+
+    </div>
+    <script src="index.js"></script>
+    <!--INSERT INTO `trip` (`sno`, `Name`, `Age`, `Gender`, `Phone`, `Email`, `description`, `Date`) VALUES ('1', 'Anil', '23', 'Male', '4398765123', 'anil@gmail.com', 'Hello', current_timestamp());
+    -->
+    </body>
+</html>
